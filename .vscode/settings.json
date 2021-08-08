@@ -1,13 +1,6 @@
 {
     "files.associations": {
-        "iostream": "cpp",
-        "cmath": "cpp",
-        "ostream": "cpp",
-        "istream": "cpp",
-        "vector": "cpp",
-        "locale": "cpp",
-        "regex": "cpp",
-        "xstring": "cpp",
-        "xutility": "cpp"
-    }
+        "string": "cpp"
+    },
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB"
 }

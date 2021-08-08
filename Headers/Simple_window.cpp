@@ -1,3 +1,4 @@
+
 //
 // This is a GUI support code to the chapters 12-16 of the book
 // "Programming -- Principles and Practice Using C++" by Bjarne Stroustrup
@@ -24,7 +25,7 @@ bool Simple_window::wait_for_button()
 {
     show();
     button_pushed = false;
-#if 1
+#if 0
     // Simpler handler
     while (!button_pushed) Fl::wait();
     Fl::redraw();
