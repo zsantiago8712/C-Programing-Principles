@@ -7,11 +7,13 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug",
+            "name": "Debug Mode",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            "cwd": "${workspaceFolder}",
-            "preLaunchTask": "C/C++: clang++ build active file"
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "C/C++: clang++ build active file",
+            "stopAtEntry": false,
+            "MIMode": "lldb"
         }
     ]
 }
