@@ -16,19 +16,19 @@
 #include <sstream>
 #include <vector>
 
-using namespace std;
+
 
 //------------------------------------------------------------------------------
 
 // Helper function to show an error message
-inline void error(const string& errormessage)
+inline void error(const std::string& errormessage)
 {
-    throw runtime_error(errormessage);
+    throw std::runtime_error(errormessage);
 }
 
 //------------------------------------------------------------------------------
 
-inline void error(string s1, string s2)
+inline void error(std::string s1, std::string s2)
 {
     error(s1+s2);
 }
