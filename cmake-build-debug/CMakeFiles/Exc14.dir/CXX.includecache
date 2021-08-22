@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/randymarsh/Documents/C++/C-Programing-Principles/Chapter5/Exc14.cpp
+../Headers/std_lib_facilities.h
+/Users/randymarsh/Documents/C++/C-Programing-Principles/Headers/std_lib_facilities.h
+
+/Users/randymarsh/Documents/C++/C-Programing-Principles/Headers/std_lib_facilities.h
+iostream
+-
+cmath
+-
+cstring
+-
+fstream
+-
+stdexcept
+-
+string
+-
+sstream
+-
+vector
+-
+
